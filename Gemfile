@@ -5,6 +5,12 @@ ruby "3.2.2"
 
 gem 'semantic-ui-sass', '~> 2.2', '>= 2.2.1.1'
 
+# Gem for digest passwords
+gem 'bcrypt', '~> 3.1', '>= 3.1.11' 
+
+# Gem for tabular view in the rails console
+gem 'hirb' 
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.7", ">= 7.0.7.2"
 
